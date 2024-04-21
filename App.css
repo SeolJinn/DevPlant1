@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(79deg, #9b30d9 , #b22c73 60%, #dc5e24 100%);
+}
+
+.authentication-form-app, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+@media screen and(min-width: 600px){
+}
+
+.authentication-form-app{
+  padding: 5rem;
+  border: 1px solid #c7f3e6;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border:none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color:darkcyan;
+  text-decoration: underline;
+}
+
+.link-btn{
+  background: none;
+  color:aqua;
+  border:none;
+}
