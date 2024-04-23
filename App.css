@@ -1,54 +1,36 @@
-.App {
-  text-align: center;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
+.header {
+  background-color:rgb(50, 155, 90);
+  font-size: 20px;
+  padding: 25px;
   color: white;
-  background-image: linear-gradient(79deg, #9b30d9 , #b22c73 60%, #dc5e24 100%);
 }
 
-.authentication-form-app, .login-form, .register-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
+.title{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(50, 155, 90);
+}
+.content{
+  text-align: center;
+
+  font-size: 15px;
+  color: rgb(50, 155, 90);
 }
 
-@media screen and(min-width: 600px){
-}
-
-.authentication-form-app{
-  padding: 5rem;
-  border: 1px solid #c7f3e6;
-  border-radius: 10px;
-  margin: 0.5rem;
-}
-
-
-label{
-  text-align: left;
-  padding: 0.25rem 0;
-}
-
-input{
-  margin: 0.5rem 0;
-  padding: 1rem;
+.button{
+  background-color: rgb(50, 155, 90);
+  color: white;
+  padding: 10px 20px;
   border: none;
-  border-radius: 10px;
-}
-
-button{
-  border:none;
-  padding: 10px;
-  border-radius: 10px;
   cursor: pointer;
-  color:darkcyan;
-  text-decoration: underline;
+  font-size: 15px;
 }
 
-.link-btn{
-  background: none;
-  color:aqua;
-  border:none;
+.instr{
+  font-size: 15px;
+  background-color: rgb(235, 236, 227);
+  color:rgb(81, 104, 86);
+  padding: 2px; /* Padding around the text */
+  border-left: 1px solid #333; /* Left border */
+  display: inline-block;  
 }
